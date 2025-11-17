@@ -118,7 +118,7 @@ async def identify_plant(image: UploadFile = File(...)):
     
     params = {
         'api-key': PLANTNET_API_KEY,
-        'organs': 'auto' # Use 'auto' to let the AI decide
+       # 'organs': 'auto' # Use 'auto' to let the AI decide
     }
     
     # 2. Call Pl@ntNet API
